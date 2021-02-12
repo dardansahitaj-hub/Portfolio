@@ -1,0 +1,121 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+@font-face {
+  font-family: "Septimus";
+  src: url("assets/font/Septimus.woff.ttf");
+        
+ }
+
+* {
+  padding:0;
+  margin:0;
+  font-family: Septimus;
+}
+
+body {
+  color:black;
+  /* background-image: url('assets/img/background.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  font: 18px/27px 'Oxygen', sans-serif;
+  text-shadow: 1px 4px 6px #00A3CF;
+  font-family: Septimus;
+}
+header {
+  background-color: #2C3060;
+  height:60px;
+  width: 80%;
+  margin:auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: fixed;
+  box-shadow: 1px 4px 6px #00A3CF;
+  padding:4px;
+}
+input,button {
+  box-shadow: 1px 4px 6px #00A3CF;
+  color: white !important;
+  background-color: #2C3060 !important;
+  border-radius: 5px;
+}
+#header2 {
+  position: absolute;
+}
+#header3 {
+  position: absolute;
+}
+
+footer {
+  background-image: url('assets/img/footer.png');
+  background-size: cover;
+  height:250px;
+  width: 100%;
+  margin:auto;
+  bottom:0px;
+}
+
+/*Dardan Style*/
+.min-height-900{
+  min-height:1700px;
+}
+.margin-top-5{
+  margin-top:5%;
+}
+.bg-color1{
+  background-color: #2C3060;
+}
+.bg-color2{
+  background-color: #00A3CF;
+}
+.border
+.box-shadow-blue {
+  box-shadow: 1px 4px 6px #00A3CF;
+}
+.position-logo-D {
+  position: absolute;
+  left:0px;
+  top:0px;
+}
+
+.animatated {
+  animation: bounce 5.5s  alternate-reverse ;
+ 
+}
+
+#texteDardanSahitaj{
+  text-shadow: 1px 4px 6px#00A3CF;
+}
+#chatAvecDude {
+ height:250px;
+ width:250px;
+ padding:10px;
+ background-color: white;
+ border:1px solid black;
+ border-radius: 7px;
+ margin:0 auto;
+ color:black;
+ position: absolute;
+}
+#petitCroixDude {
+ 
+  color:white;
+  height:50px;
+  width: 50px;
+  position: absolute;
+  top:7px;
+  right:71px;
+} 
+#dude {
+  height: 550px;
+  top: 70px;
+  right: -40px;
+  position: absolute;
+}
+.float-right{
+  float:right;
+}
+#dudeBoxed { 
+  background-color: #2C3060;
+  width:50%;
+  height:0px;
+}
