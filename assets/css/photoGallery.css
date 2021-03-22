@@ -1,0 +1,32 @@
+.gallery {
+    width: 100%;
+    border:1px solid #EEE;
+    padding:2%;
+}
+.placeholder {
+    width: 48%;
+    margin: 1%;
+    float: left;
+}
+
+.placeholder img {
+    border: 1px solid #EEEEEE;
+    width: 100%;
+    padding:1%;
+    min-height: 300px;
+    max-height: 600px;
+}
+
+.gallery-images {
+    width: 48%;
+    margin: 1%;
+    float: left;
+}
+
+.image img {
+    width: 31.333%;
+    min-height:125px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+}

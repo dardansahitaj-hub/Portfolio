@@ -1,0 +1,121 @@
+
+#title-Tag-Line {
+    font-size: 20px;
+  }
+  /* .card-item__bg{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    transform: translate(0px, 50px);
+    z-index: 5;
+  } */
+  
+  /* form animation starts */
+  .form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 5px solid #2c3060;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    text-align: center;
+  }
+  .termsConditions{
+   
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+    color: #2C3060;
+  }
+  .secondaryTitle{
+    color: #2C3060;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: #2C3060;
+  }
+  .name:hover {
+    border-bottom: 5px solid #00A3CF;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+    color: #2C3060;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #00A3CF;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 16rem;
+    color: #2C3060;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #00A3CF;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    padding: 10px;
+    transition: all 0.5s ease 0s;
+    width: 80%;
+    border-radius: 4%;
+    margin: 1%;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #2c3060;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #00a3cf;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+  
+  
