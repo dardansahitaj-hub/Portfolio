@@ -72,9 +72,20 @@ function typeDD2(cibleType , textReponseIntro , textReponse1 , textReponse2 , te
       });
      
       return typed3;
-
-     
 }
+
+function typeDDGallery(textReponseDude){
+    $('#titreProjet').val('');
+        var typed2 = new Typed('#boiteDeDialogueReponse', {
+            strings: [textReponseDude],
+            typeSpeed: 0,
+            backSpeed: 0,
+            fadeOut: true,
+            loop: false,
+            showCursor:false
+        });
+        return typed2;
+    }
 
 function monAdresseIP(){
     $.getJSON("https://api.ipify.org/?format=json", function(e) {   

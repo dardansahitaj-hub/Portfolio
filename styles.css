@@ -190,6 +190,12 @@ footer {
 .bg-color2{
   background-color: #00A3CF;
 }
+.color1{
+  color: #2C3060;
+}
+.color2{
+  color: #00A3CF;
+}
 .box-shadow-blue {
   box-shadow: 1px 4px 6px #00A3CF;
 }

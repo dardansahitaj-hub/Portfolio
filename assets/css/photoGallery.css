@@ -1,16 +1,23 @@
 .gallery {
     width: 100%;
-    border:1px solid #EEE;
     padding:2%;
 }
 .placeholder {
-    width: 48%;
+    border: 1px solid #EEEEEE;
+    border-radius: 5%;
+    padding: 1%;
+    width: 49%;
     margin: 1%;
     float: left;
+    min-height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .placeholder img {
-    border: 1px solid #EEEEEE;
     width: 100%;
     padding:1%;
     min-height: 300px;
@@ -18,13 +25,19 @@
 }
 
 .gallery-images {
-    width: 48%;
-    margin: 1%;
+    width: 49%;
+    padding: 1%;
     float: left;
+    border: 1px solid #EEEEEE;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .image img {
-    width: 31.333%;
+    width:31%;
     min-height:125px;
     float: left;
     margin: 1%;
