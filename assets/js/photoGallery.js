@@ -49,7 +49,24 @@ jQuery(document).ready(function($) {
             detailProjet.html('Lounge');
         }
         else if (id === 9 ){
-            
+            titreProjet.html('ARM Concept - Achat Vente Véhicules');
+            detailProjet.html('<a href="http://www.arm-concept.be">www.arm-concept.be</a>');
+        }
+        else if (id === 10 ){
+            titreProjet.html('SEO Design - Agence Web & Communication');
+            detailProjet.html('<a href="http://www.seodesign.be">www.seodesign.be</a>');
+        }
+        else if (id === 11 ){
+            titreProjet.html('Belart - Expert - Consultant');
+            detailProjet.html('<a href="https://http://www.belart.org/">www.belart.org/</a>');
+        }
+        else if (id === 12 ){
+            titreProjet.html('Pollino - Restaurent Italien');
+            detailProjet.html('<a href="https://www.pollino.be">www.pollino.be</a>');
+        }
+        else if (id === 13 ){
+            titreProjet.html('ABVA - Associations Belges Viole D\'Amour');
+            detailProjet.html('<a href="https://abva.be/">www.abva.be/</a>');
         }
     });
 });
